@@ -1,16 +1,22 @@
-# FSI - API
+# Ferramenta de Score para Inadimplência - FSI
 
 Para utilizar essa API, siga os seguintes passos.
 
-```pip install -U poetry```
+```
+pip install -U poetry
+```
 
 O `poetry` será a ferramenta utilizada para o controle das bibliotecas utilizadas no projeto.
 
-```poetry install```
+```
+poetry install
+```
 
 Para instalar as dependências.
 
-```uvicorn app:app --reload```
+```
+uvicorn app:app --reload
+```
 
 Esse comando irá iniciar a API localmente. Assim que o comando executar com sucesso a inicialização, siga para `http://127.0.0.1:8000/docs`. Nesse enderenço, você terá disponível uma interface gráfica para interagir com a API manualmente.
 
