@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+plotly = "^5.11.0"
+pandas = "^1.5.2"
+numpy = "^1.24.0"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+scipy = "^1.9.3"
+sklearn = "^0.0.post1"
+statsmodels = "^0.13.5"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+ipython = "^8.7.0"
+scikit-learn = "^1.2.0"
+pydantic = "^1.10.2"
+python-dotenv = "^0.21.0"
+docker = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
